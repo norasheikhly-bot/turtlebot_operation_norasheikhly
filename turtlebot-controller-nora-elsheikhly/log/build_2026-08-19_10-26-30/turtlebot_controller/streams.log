@@ -1,0 +1,25 @@
+[2.343s] Invoking command in '/root/workspaces/turtlebot-controller-nora-elsheikhly/src/turtlebot_controller': PYTHONPATH=/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build install --record /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data
+[2.593s] running egg_info
+[2.623s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[2.642s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[2.659s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[2.675s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[2.689s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[2.748s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.761s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[2.781s] running build
+[2.802s] running build_py
+[2.819s] copying turtlebot_controller/cmd_vel_publisher.py -> /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build/lib/turtlebot_controller
+[2.837s] running install
+[2.853s] running install_lib
+[2.874s] copying /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build/lib/turtlebot_controller/cmd_vel_publisher.py -> /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[2.890s] byte-compiling /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/cmd_vel_publisher.py to cmd_vel_publisher.cpython-312.pyc
+[2.895s] running install_data
+[2.895s] running install_egg_info
+[2.912s] removing '/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.967s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info
+[3.171s] running install_scripts
+[3.310s] Installing cmd_vel_publisher script to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/turtlebot_controller
+[3.328s] Installing cmd_vel_subscriber script to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/turtlebot_controller
+[3.348s] writing list of installed files to '/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log'
+[3.391s] Invoked command in '/root/workspaces/turtlebot-controller-nora-elsheikhly/src/turtlebot_controller' returned '0': PYTHONPATH=/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build install --record /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data

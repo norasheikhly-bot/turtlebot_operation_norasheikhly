@@ -1,0 +1,24 @@
+[1.200s] Invoking command in '/root/workspaces/turtlebot-controller-nora-elsheikhly/src/turtlebot_controller': PYTHONPATH=/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build install --record /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data
+[1.515s] running egg_info
+[1.543s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[1.577s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[1.596s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[1.612s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[1.670s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[1.686s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[1.703s] running build
+[1.722s] running build_py
+[1.742s] running install
+[1.758s] running install_lib
+[1.774s] byte-compiling /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/cmd_vel_publisher.py to cmd_vel_publisher.cpython-312.pyc
+[1.786s] Sorry: IndentationError: unexpected indent (cmd_vel_publisher.py, line 41)
+[1.794s] running install_data
+[1.803s] running install_egg_info
+[1.803s] removing '/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[1.810s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info
+[1.988s] running install_scripts
+[2.170s] Installing cmd_vel_publisher script to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/turtlebot_controller
+[2.190s] Installing cmd_vel_subscriber script to /root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/turtlebot_controller
+[2.214s] writing list of installed files to '/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log'
+[2.255s] Invoked command in '/root/workspaces/turtlebot-controller-nora-elsheikhly/src/turtlebot_controller' returned '0': PYTHONPATH=/root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot-controller-nora-elsheikhly/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/build install --record /root/workspaces/turtlebot-controller-nora-elsheikhly/build/turtlebot_controller/install.log --install-scripts $base/lib/turtlebot_controller --single-version-externally-managed install_data
