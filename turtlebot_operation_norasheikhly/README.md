@@ -18,6 +18,7 @@
  # <depend>obstacle_interfaces</depend>
 # create node direction_autopilot_node.py then fill the code below
 # Modify setup.py add entry points
+# Modify package.xml (dependencies)
 # build packsge and source and test below
 
 
