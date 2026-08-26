@@ -1,0 +1,163 @@
+[0.164s] Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces -- -j4 -l4
+[0.364s] [  5%] Built target obstacle_interfaces__rosidl_generator_type_description
+[0.377s] [  5%] Built target obstacle_interfaces__rs
+[0.430s] [  8%] Built target obstacle_interfaces__cpp
+[0.528s] [ 22%] Built target obstacle_interfaces__rosidl_generator_c
+[0.667s] [ 48%] Built target obstacle_interfaces__rosidl_typesupport_c
+[0.667s] [ 48%] Built target obstacle_interfaces__rosidl_typesupport_fastrtps_c
+[0.668s] [ 48%] Built target obstacle_interfaces__rosidl_typesupport_introspection_c
+[0.800s] [ 74%] Built target obstacle_interfaces__rosidl_typesupport_cpp
+[0.800s] [ 74%] Built target obstacle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.800s] [ 74%] Built target obstacle_interfaces__rosidl_typesupport_introspection_cpp
+[0.835s] [ 74%] Built target obstacle_interfaces
+[0.851s] [ 74%] Built target ament_cmake_python_copy_obstacle_interfaces
+[0.891s] [ 77%] Built target obstacle_interfaces__py
+[0.984s] [ 82%] Built target obstacle_interfaces__rosidl_generator_py
+[1.082s] running egg_info
+[1.108s] [100%] Built target obstacle_interfaces_s__rosidl_typesupport_introspection_c
+[1.116s] [100%] Built target obstacle_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.116s] [100%] Built target obstacle_interfaces_s__rosidl_typesupport_c
+[1.116s] writing obstacle_interfaces.egg-info/PKG-INFO
+[1.131s] writing dependency_links to obstacle_interfaces.egg-info/dependency_links.txt
+[1.156s] writing top-level names to obstacle_interfaces.egg-info/top_level.txt
+[1.217s] reading manifest file 'obstacle_interfaces.egg-info/SOURCES.txt'
+[1.231s] writing manifest file 'obstacle_interfaces.egg-info/SOURCES.txt'
+[1.269s] [100%] Built target ament_cmake_python_build_obstacle_interfaces_egg
+[1.473s] Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces -- -j4 -l4
+[1.500s] Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces
+[1.512s] -- Install configuration: ""
+[1.513s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/rosidl_interfaces/obstacle_interfaces
+[1.519s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.json
+[1.523s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[1.541s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[1.566s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/set_direction.h
+[1.583s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[1.610s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__functions.c
+[1.629s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.h
+[1.648s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__functions.h
+[1.664s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.c
+[1.664s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__struct.h
+[1.664s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__description.c
+[1.664s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg
+[1.665s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.665s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/library_path.sh
+[1.665s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/library_path.dsv
+[1.665s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_c.so
+[1.665s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[1.677s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[1.681s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[1.693s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_fastrtps_c.h
+[1.696s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg
+[1.708s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.712s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.733s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[1.752s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[1.769s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[1.787s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.c
+[1.806s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_introspection_c.h
+[1.827s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg
+[1.844s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.862s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_c.so
+[1.881s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_c.so
+[1.900s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[1.919s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[1.936s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/set_direction.hpp
+[1.953s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[1.971s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.hpp
+[1.976s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__struct.hpp
+[1.976s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__traits.hpp
+[1.976s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__builder.hpp
+[1.976s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg
+[1.976s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/dds_fastrtps
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_fastrtps_cpp.hpp
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.977s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.003s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces
+[2.009s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv
+[2.009s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail
+[2.025s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.cpp
+[2.025s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_introspection_cpp.hpp
+[2.044s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.074s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_cpp.so
+[2.095s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/pythonpath.sh
+[2.109s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/pythonpath.dsv
+[2.113s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info
+[2.115s] -- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[2.162s] -- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.210s] -- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.262s] -- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[2.312s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces
+[2.326s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_c.c
+[2.349s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.370s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.393s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so
+[2.402s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.410s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.428s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv
+[2.449s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/_set_direction.py
+[2.468s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/_set_direction_s.c
+[2.496s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/__init__.py
+[2.506s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/__init__.py
+[2.506s] Listing '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces'...
+[2.506s] Listing '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv'...
+[2.506s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.506s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.515s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so
+[2.533s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_py.so
+[2.552s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/rust_packages/obstacle_interfaces
+[2.565s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust
+[2.583s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src
+[2.583s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/lib.rs
+[2.601s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv.rs
+[2.620s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv
+[2.625s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv/rmw.rs
+[2.648s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/Cargo.toml
+[2.668s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/build.rs
+[2.673s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.idl
+[2.694s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.srv
+[2.724s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/package_run_dependencies/obstacle_interfaces
+[2.742s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/parent_prefix_path/obstacle_interfaces
+[2.762s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/ament_prefix_path.sh
+[2.780s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/ament_prefix_path.dsv
+[2.800s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/path.sh
+[2.819s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/path.dsv
+[2.838s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.bash
+[2.838s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.sh
+[2.857s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.zsh
+[2.881s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.dsv
+[2.899s] -- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.dsv
+[2.919s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/packages/obstacle_interfaces
+[2.947s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cExport.cmake
+[2.967s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.987s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.008s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.027s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.027s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.046s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cExport.cmake
+[3.065s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.080s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cppExport.cmake
+[3.085s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.104s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.123s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.144s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.164s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cppExport.cmake
+[3.184s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.203s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_pyExport.cmake
+[3.227s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfacesConfig.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfacesConfig-version.cmake
+[3.238s] -- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.xml
+[3.238s] Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces

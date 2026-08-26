@@ -1,0 +1,5 @@
+  File "/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller/direction_autopilot_node.py", line 108
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+

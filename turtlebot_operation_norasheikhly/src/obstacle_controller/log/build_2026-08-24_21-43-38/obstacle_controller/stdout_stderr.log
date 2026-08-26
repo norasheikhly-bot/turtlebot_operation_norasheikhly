@@ -1,0 +1,42 @@
+running egg_info
+creating build/obstacle_controller/obstacle_controller.egg-info
+writing build/obstacle_controller/obstacle_controller.egg-info/PKG-INFO
+writing dependency_links to build/obstacle_controller/obstacle_controller.egg-info/dependency_links.txt
+writing entry points to build/obstacle_controller/obstacle_controller.egg-info/entry_points.txt
+writing requirements to build/obstacle_controller/obstacle_controller.egg-info/requires.txt
+writing top-level names to build/obstacle_controller/obstacle_controller.egg-info/top_level.txt
+writing manifest file 'build/obstacle_controller/obstacle_controller.egg-info/SOURCES.txt'
+reading manifest file 'build/obstacle_controller/obstacle_controller.egg-info/SOURCES.txt'
+writing manifest file 'build/obstacle_controller/obstacle_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib/obstacle_controller
+copying obstacle_controller/direction_autopilot_node.py -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib/obstacle_controller
+copying obstacle_controller/__init__.py -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib/obstacle_controller
+running install
+running install_lib
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller
+copying /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib/obstacle_controller/direction_autopilot_node.py -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller
+copying /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/build/lib/obstacle_controller/__init__.py -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller
+byte-compiling /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller/direction_autopilot_node.py to direction_autopilot_node.cpython-312.pyc
+  File "/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller/direction_autopilot_node.py", line 108
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+
+byte-compiling /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/share/ament_index
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/share/ament_index/resource_index
+creating /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/share/ament_index/resource_index/packages
+copying resource/obstacle_controller -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/share/ament_index/resource_index/packages
+copying package.xml -> /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/share/obstacle_controller
+running install_egg_info
+Copying build/obstacle_controller/obstacle_controller.egg-info to /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cmd_vel_publisher script to /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/obstacle_controller
+Installing cmd_vel_subscriber script to /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/obstacle_controller
+Installing direction_autopilot_node script to /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/install/obstacle_controller/lib/obstacle_controller
+writing list of installed files to '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller/build/obstacle_controller/install.log'

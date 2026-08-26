@@ -1,0 +1,528 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (obstacle_interfaces) JobQueued: {'identifier': 'obstacle_interfaces', 'dependencies': OrderedDict()}
+[0.000158] (obstacle_interfaces) JobStarted: {'identifier': 'obstacle_interfaces'}
+[0.062393] (obstacle_interfaces) JobProgress: {'identifier': 'obstacle_interfaces', 'progress': 'cmake'}
+[0.087720] (obstacle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces'], 'cwd': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-43-172.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/418c5e1a-e2d6-40f2-9177-20895be599f5', 'OLDPWD': '/root/workspaces/turtlebot_operation_norasheikhly/src', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/f2ff5acd-ccb2-4c21-82ff-6c0251578bde', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/d1f4507751ec4535982c6852653c4ead-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/d1f4507751ec4535982c6852653c4ead-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/d1f4507751ec4535982c6852653c4ead-1842134484', 'SESSION_UUID': '418c5e1a-e2d6-40f2-9177-20895be599f5', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.120546] (-) TimerEvent: {}
+[0.153323] (obstacle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.220630] (-) TimerEvent: {}
+[0.320837] (-) TimerEvent: {}
+[0.421031] (-) TimerEvent: {}
+[0.521243] (-) TimerEvent: {}
+[0.563532] (obstacle_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.621323] (-) TimerEvent: {}
+[0.721542] (-) TimerEvent: {}
+[0.738069] (obstacle_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.750028] (obstacle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.821628] (-) TimerEvent: {}
+[0.841808] (obstacle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.920080] (obstacle_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.921714] (-) TimerEvent: {}
+[1.024448] (-) TimerEvent: {}
+[1.124629] (-) TimerEvent: {}
+[1.224856] (-) TimerEvent: {}
+[1.325072] (-) TimerEvent: {}
+[1.425263] (-) TimerEvent: {}
+[1.525444] (-) TimerEvent: {}
+[1.625641] (-) TimerEvent: {}
+[1.725916] (-) TimerEvent: {}
+[1.826121] (-) TimerEvent: {}
+[1.926324] (-) TimerEvent: {}
+[2.026521] (-) TimerEvent: {}
+[2.126702] (-) TimerEvent: {}
+[2.226881] (-) TimerEvent: {}
+[2.327060] (-) TimerEvent: {}
+[2.427250] (-) TimerEvent: {}
+[2.527429] (-) TimerEvent: {}
+[2.627613] (-) TimerEvent: {}
+[2.637191] (obstacle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.727699] (-) TimerEvent: {}
+[2.827910] (-) TimerEvent: {}
+[2.928102] (-) TimerEvent: {}
+[3.028273] (-) TimerEvent: {}
+[3.128441] (-) TimerEvent: {}
+[3.228613] (-) TimerEvent: {}
+[3.328808] (-) TimerEvent: {}
+[3.428994] (-) TimerEvent: {}
+[3.529173] (-) TimerEvent: {}
+[3.629364] (-) TimerEvent: {}
+[3.729533] (-) TimerEvent: {}
+[3.829729] (-) TimerEvent: {}
+[3.929922] (-) TimerEvent: {}
+[4.030123] (-) TimerEvent: {}
+[4.130298] (-) TimerEvent: {}
+[4.230509] (-) TimerEvent: {}
+[4.323850] (obstacle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.330581] (-) TimerEvent: {}
+[4.430759] (-) TimerEvent: {}
+[4.530966] (-) TimerEvent: {}
+[4.631159] (-) TimerEvent: {}
+[4.731332] (-) TimerEvent: {}
+[4.831509] (-) TimerEvent: {}
+[4.931704] (-) TimerEvent: {}
+[5.031914] (-) TimerEvent: {}
+[5.132118] (-) TimerEvent: {}
+[5.232295] (-) TimerEvent: {}
+[5.332472] (-) TimerEvent: {}
+[5.432717] (-) TimerEvent: {}
+[5.532912] (-) TimerEvent: {}
+[5.633099] (-) TimerEvent: {}
+[5.733288] (-) TimerEvent: {}
+[5.833517] (-) TimerEvent: {}
+[5.933720] (-) TimerEvent: {}
+[6.033894] (-) TimerEvent: {}
+[6.134075] (-) TimerEvent: {}
+[6.234272] (-) TimerEvent: {}
+[6.334461] (-) TimerEvent: {}
+[6.339682] (obstacle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.405841] (obstacle_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.434536] (-) TimerEvent: {}
+[6.534751] (-) TimerEvent: {}
+[6.556823] (obstacle_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.634846] (-) TimerEvent: {}
+[6.735068] (-) TimerEvent: {}
+[6.835300] (-) TimerEvent: {}
+[6.935513] (-) TimerEvent: {}
+[7.035732] (-) TimerEvent: {}
+[7.069970] (obstacle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.135810] (-) TimerEvent: {}
+[7.236000] (-) TimerEvent: {}
+[7.336190] (-) TimerEvent: {}
+[7.436371] (-) TimerEvent: {}
+[7.536557] (-) TimerEvent: {}
+[7.636732] (-) TimerEvent: {}
+[7.736905] (-) TimerEvent: {}
+[7.837075] (-) TimerEvent: {}
+[7.937241] (-) TimerEvent: {}
+[8.037415] (-) TimerEvent: {}
+[8.072237] (obstacle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.137495] (-) TimerEvent: {}
+[8.237679] (-) TimerEvent: {}
+[8.337852] (-) TimerEvent: {}
+[8.358691] (obstacle_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.420072] (obstacle_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.437937] (-) TimerEvent: {}
+[8.538145] (-) TimerEvent: {}
+[8.638328] (-) TimerEvent: {}
+[8.738503] (-) TimerEvent: {}
+[8.838676] (-) TimerEvent: {}
+[8.938843] (-) TimerEvent: {}
+[9.039039] (-) TimerEvent: {}
+[9.139220] (-) TimerEvent: {}
+[9.239375] (-) TimerEvent: {}
+[9.339546] (-) TimerEvent: {}
+[9.439727] (-) TimerEvent: {}
+[9.462779] (obstacle_interfaces) StdoutLine: {'line': b'-- Configuring done (9.3s)\n'}
+[9.539803] (-) TimerEvent: {}
+[9.639992] (-) TimerEvent: {}
+[9.740175] (-) TimerEvent: {}
+[9.840347] (-) TimerEvent: {}
+[9.940539] (-) TimerEvent: {}
+[10.040779] (-) TimerEvent: {}
+[10.141011] (-) TimerEvent: {}
+[10.241233] (-) TimerEvent: {}
+[10.341463] (-) TimerEvent: {}
+[10.441721] (-) TimerEvent: {}
+[10.541941] (-) TimerEvent: {}
+[10.642179] (-) TimerEvent: {}
+[10.742379] (-) TimerEvent: {}
+[10.842580] (-) TimerEvent: {}
+[10.942773] (-) TimerEvent: {}
+[11.042954] (-) TimerEvent: {}
+[11.143138] (-) TimerEvent: {}
+[11.243305] (-) TimerEvent: {}
+[11.343475] (-) TimerEvent: {}
+[11.443645] (-) TimerEvent: {}
+[11.543807] (-) TimerEvent: {}
+[11.643968] (-) TimerEvent: {}
+[11.744154] (-) TimerEvent: {}
+[11.844317] (-) TimerEvent: {}
+[11.944495] (-) TimerEvent: {}
+[12.044681] (-) TimerEvent: {}
+[12.144863] (-) TimerEvent: {}
+[12.245050] (-) TimerEvent: {}
+[12.345239] (-) TimerEvent: {}
+[12.445496] (-) TimerEvent: {}
+[12.545685] (-) TimerEvent: {}
+[12.645863] (-) TimerEvent: {}
+[12.746066] (-) TimerEvent: {}
+[12.846250] (-) TimerEvent: {}
+[12.946425] (-) TimerEvent: {}
+[13.046618] (-) TimerEvent: {}
+[13.146826] (-) TimerEvent: {}
+[13.247032] (-) TimerEvent: {}
+[13.347220] (-) TimerEvent: {}
+[13.447404] (-) TimerEvent: {}
+[13.547607] (-) TimerEvent: {}
+[13.647783] (-) TimerEvent: {}
+[13.747959] (-) TimerEvent: {}
+[13.848156] (-) TimerEvent: {}
+[13.948344] (-) TimerEvent: {}
+[14.048518] (-) TimerEvent: {}
+[14.148693] (-) TimerEvent: {}
+[14.248879] (-) TimerEvent: {}
+[14.349066] (-) TimerEvent: {}
+[14.449244] (-) TimerEvent: {}
+[14.549447] (-) TimerEvent: {}
+[14.577425] (obstacle_interfaces) StdoutLine: {'line': b'-- Generating done (5.0s)\n'}
+[14.649525] (-) TimerEvent: {}
+[14.749704] (-) TimerEvent: {}
+[14.849905] (-) TimerEvent: {}
+[14.950093] (-) TimerEvent: {}
+[15.050275] (-) TimerEvent: {}
+[15.150465] (-) TimerEvent: {}
+[15.250643] (-) TimerEvent: {}
+[15.350821] (-) TimerEvent: {}
+[15.450992] (-) TimerEvent: {}
+[15.551183] (-) TimerEvent: {}
+[15.651356] (-) TimerEvent: {}
+[15.751525] (-) TimerEvent: {}
+[15.851698] (-) TimerEvent: {}
+[15.867170] (obstacle_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces\n'}
+[15.877172] (obstacle_interfaces) CommandEnded: {'returncode': 0}
+[15.879486] (obstacle_interfaces) JobProgress: {'identifier': 'obstacle_interfaces', 'progress': 'build'}
+[15.881929] (obstacle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', '--', '-j4', '-l4'], 'cwd': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-43-172.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/418c5e1a-e2d6-40f2-9177-20895be599f5', 'OLDPWD': '/root/workspaces/turtlebot_operation_norasheikhly/src', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/f2ff5acd-ccb2-4c21-82ff-6c0251578bde', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/d1f4507751ec4535982c6852653c4ead-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/d1f4507751ec4535982c6852653c4ead-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/d1f4507751ec4535982c6852653c4ead-1842134484', 'SESSION_UUID': '418c5e1a-e2d6-40f2-9177-20895be599f5', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.951774] (-) TimerEvent: {}
+[16.051965] (-) TimerEvent: {}
+[16.103463] (obstacle_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[16.104269] (obstacle_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[16.152081] (-) TimerEvent: {}
+[16.153163] (obstacle_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_obstacle_interfaces\n'}
+[16.252182] (-) TimerEvent: {}
+[16.352683] (-) TimerEvent: {}
+[16.453162] (-) TimerEvent: {}
+[16.454939] (obstacle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.458229] (obstacle_interfaces) StdoutLine: {'line': b'creating obstacle_interfaces.egg-info\n'}
+[16.488589] (obstacle_interfaces) StdoutLine: {'line': b'[  5%] Built target obstacle_interfaces__rosidl_generator_type_description\n'}
+[16.505752] (obstacle_interfaces) StdoutLine: {'line': b'writing obstacle_interfaces.egg-info/PKG-INFO\n'}
+[16.520503] (obstacle_interfaces) StdoutLine: {'line': b'writing dependency_links to obstacle_interfaces.egg-info/dependency_links.txt\n'}
+[16.537348] (obstacle_interfaces) StdoutLine: {'line': b'writing top-level names to obstacle_interfaces.egg-info/top_level.txt\n'}
+[16.543861] (obstacle_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.551399] (obstacle_interfaces) StdoutLine: {'line': b"writing manifest file 'obstacle_interfaces.egg-info/SOURCES.txt'\n"}
+[16.562421] (-) TimerEvent: {}
+[16.575181] (obstacle_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[16.582322] (obstacle_interfaces) StdoutLine: {'line': b'[ 11%] Built target obstacle_interfaces__rs\n'}
+[16.640744] (obstacle_interfaces) StdoutLine: {'line': b"reading manifest file 'obstacle_interfaces.egg-info/SOURCES.txt'\n"}
+[16.649533] (obstacle_interfaces) StdoutLine: {'line': b"writing manifest file 'obstacle_interfaces.egg-info/SOURCES.txt'\n"}
+[16.662515] (-) TimerEvent: {}
+[16.703005] (obstacle_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_obstacle_interfaces_egg\n'}
+[16.762607] (-) TimerEvent: {}
+[16.862885] (-) TimerEvent: {}
+[16.963105] (-) TimerEvent: {}
+[17.054129] (obstacle_interfaces) StdoutLine: {'line': b'[ 11%] Built target obstacle_interfaces__cpp\n'}
+[17.063208] (-) TimerEvent: {}
+[17.156926] (obstacle_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/obstacle_interfaces/srv/detail/set_direction__description.c.o\x1b[0m\n'}
+[17.157138] (obstacle_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/obstacle_interfaces/srv/detail/set_direction__functions.c.o\x1b[0m\n'}
+[17.175284] (-) TimerEvent: {}
+[17.180617] (obstacle_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/obstacle_interfaces/srv/detail/set_direction__type_support.c.o\x1b[0m\n'}
+[17.275382] (-) TimerEvent: {}
+[17.351678] (obstacle_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libobstacle_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[17.375458] (-) TimerEvent: {}
+[17.475669] (-) TimerEvent: {}
+[17.575875] (-) TimerEvent: {}
+[17.615765] (obstacle_interfaces) StdoutLine: {'line': b'[ 22%] Built target obstacle_interfaces__rosidl_generator_c\n'}
+[17.675956] (-) TimerEvent: {}
+[17.682593] (obstacle_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.687528] (obstacle_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.703047] (obstacle_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.707498] (obstacle_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.776057] (-) TimerEvent: {}
+[17.876394] (-) TimerEvent: {}
+[17.976741] (-) TimerEvent: {}
+[18.077043] (-) TimerEvent: {}
+[18.159295] (obstacle_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/obstacle_interfaces/srv/set_direction__type_support.cpp.o\x1b[0m\n'}
+[18.177128] (-) TimerEvent: {}
+[18.257003] (obstacle_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/obstacle_interfaces/srv/detail/set_direction__type_support.c.o\x1b[0m\n'}
+[18.273174] (obstacle_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/obstacle_interfaces/srv/detail/dds_fastrtps/set_direction__type_support.cpp.o\x1b[0m\n'}
+[18.277222] (-) TimerEvent: {}
+[18.327306] (obstacle_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.345626] (obstacle_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/obstacle_interfaces/srv/detail/set_direction__type_support_c.cpp.o\x1b[0m\n'}
+[18.377311] (-) TimerEvent: {}
+[18.461893] (obstacle_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libobstacle_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.477403] (-) TimerEvent: {}
+[18.505867] (obstacle_interfaces) StdoutLine: {'line': b'[ 51%] Built target obstacle_interfaces__rosidl_typesupport_c\n'}
+[18.554038] (obstacle_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.577490] (-) TimerEvent: {}
+[18.599614] (obstacle_interfaces) StdoutLine: {'line': b'[ 54%] Built target obstacle_interfaces__rosidl_typesupport_introspection_c\n'}
+[18.645692] (obstacle_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.677586] (-) TimerEvent: {}
+[18.777993] (-) TimerEvent: {}
+[18.878262] (-) TimerEvent: {}
+[18.978528] (-) TimerEvent: {}
+[19.035906] (obstacle_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/obstacle_interfaces/srv/set_direction__type_support.cpp.o\x1b[0m\n'}
+[19.037465] (obstacle_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/obstacle_interfaces/srv/detail/set_direction__type_support.cpp.o\x1b[0m\n'}
+[19.078609] (-) TimerEvent: {}
+[19.179108] (-) TimerEvent: {}
+[19.279804] (-) TimerEvent: {}
+[19.380509] (-) TimerEvent: {}
+[19.481195] (-) TimerEvent: {}
+[19.527097] (obstacle_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.581316] (-) TimerEvent: {}
+[19.681658] (-) TimerEvent: {}
+[19.751530] (obstacle_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.778930] (obstacle_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.781746] (-) TimerEvent: {}
+[19.785114] (obstacle_interfaces) StdoutLine: {'line': b'[ 71%] Built target obstacle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[19.881823] (-) TimerEvent: {}
+[19.937362] (obstacle_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.981901] (-) TimerEvent: {}
+[19.994480] (obstacle_interfaces) StdoutLine: {'line': b'[ 74%] Built target obstacle_interfaces__rosidl_typesupport_cpp\n'}
+[20.005574] (obstacle_interfaces) StdoutLine: {'line': b'[ 74%] Built target obstacle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.081986] (-) TimerEvent: {}
+[20.138885] (obstacle_interfaces) StdoutLine: {'line': b'[ 74%] Built target obstacle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[20.182063] (-) TimerEvent: {}
+[20.184567] (obstacle_interfaces) StdoutLine: {'line': b'[ 74%] Built target obstacle_interfaces\n'}
+[20.246813] (obstacle_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.282147] (-) TimerEvent: {}
+[20.382363] (-) TimerEvent: {}
+[20.482584] (-) TimerEvent: {}
+[20.582760] (-) TimerEvent: {}
+[20.682965] (-) TimerEvent: {}
+[20.739932] (obstacle_interfaces) StdoutLine: {'line': b'[ 77%] Built target obstacle_interfaces__py\n'}
+[20.783042] (-) TimerEvent: {}
+[20.823763] (obstacle_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/obstacle_interfaces/srv/_set_direction_s.c.o\x1b[0m\n'}
+[20.883135] (-) TimerEvent: {}
+[20.983400] (-) TimerEvent: {}
+[21.083597] (-) TimerEvent: {}
+[21.183385] (obstacle_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libobstacle_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[21.183660] (-) TimerEvent: {}
+[21.288676] (-) TimerEvent: {}
+[21.347962] (obstacle_interfaces) StdoutLine: {'line': b'[ 82%] Built target obstacle_interfaces__rosidl_generator_py\n'}
+[21.388764] (-) TimerEvent: {}
+[21.441115] (obstacle_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.441358] (obstacle_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.459865] (obstacle_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/obstacle_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.488861] (-) TimerEvent: {}
+[21.589097] (-) TimerEvent: {}
+[21.682602] (obstacle_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.689195] (-) TimerEvent: {}
+[21.701430] (obstacle_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.726695] (obstacle_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.789277] (-) TimerEvent: {}
+[21.804392] (obstacle_interfaces) StdoutLine: {'line': b'[100%] Built target obstacle_interfaces_s__rosidl_typesupport_c\n'}
+[21.852684] (obstacle_interfaces) StdoutLine: {'line': b'[100%] Built target obstacle_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[21.856645] (obstacle_interfaces) StdoutLine: {'line': b'[100%] Built target obstacle_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[21.889471] (-) TimerEvent: {}
+[21.989679] (-) TimerEvent: {}
+[22.047713] (obstacle_interfaces) CommandEnded: {'returncode': 0}
+[22.054633] (obstacle_interfaces) JobProgress: {'identifier': 'obstacle_interfaces', 'progress': 'install'}
+[22.077016] (obstacle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces'], 'cwd': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-43-172.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/418c5e1a-e2d6-40f2-9177-20895be599f5', 'OLDPWD': '/root/workspaces/turtlebot_operation_norasheikhly/src', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/f2ff5acd-ccb2-4c21-82ff-6c0251578bde', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/d1f4507751ec4535982c6852653c4ead-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/d1f4507751ec4535982c6852653c4ead-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/d1f4507751ec4535982c6852653c4ead-1842134484', 'SESSION_UUID': '418c5e1a-e2d6-40f2-9177-20895be599f5', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.089753] (-) TimerEvent: {}
+[22.105573] (obstacle_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.132167] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/rosidl_interfaces/obstacle_interfaces\n'}
+[22.189829] (-) TimerEvent: {}
+[22.190849] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.json\n'}
+[22.234175] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[22.266292] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[22.289908] (-) TimerEvent: {}
+[22.293044] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/set_direction.h\n'}
+[22.337268] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[22.362972] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__functions.c\n'}
+[22.389987] (-) TimerEvent: {}
+[22.405579] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.h\n'}
+[22.450050] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__functions.h\n'}
+[22.490062] (-) TimerEvent: {}
+[22.495952] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.c\n'}
+[22.540797] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__struct.h\n'}
+[22.586718] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__description.c\n'}
+[22.590131] (-) TimerEvent: {}
+[22.631809] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg\n'}
+[22.653622] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.690209] (-) TimerEvent: {}
+[22.711154] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/library_path.sh\n'}
+[22.753636] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/library_path.dsv\n'}
+[22.790284] (-) TimerEvent: {}
+[22.809166] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_c.so\n'}
+[22.883177] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_c.so" to ""\n'}
+[22.890371] (-) TimerEvent: {}
+[22.891077] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[22.904717] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[22.914925] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[22.926654] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_fastrtps_c.h\n'}
+[22.970891] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg\n'}
+[22.982456] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.990473] (-) TimerEvent: {}
+[23.027224] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[23.090547] (-) TimerEvent: {}
+[23.101992] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.108295] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[23.119860] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[23.137027] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[23.153915] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.c\n'}
+[23.190622] (-) TimerEvent: {}
+[23.195869] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_introspection_c.h\n'}
+[23.239861] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg\n'}
+[23.250501] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.290698] (-) TimerEvent: {}
+[23.296055] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[23.359644] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.368002] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_c.so\n'}
+[23.390774] (-) TimerEvent: {}
+[23.432718] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[23.438621] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[23.451198] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[23.468758] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/set_direction.hpp\n'}
+[23.490842] (-) TimerEvent: {}
+[23.509241] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[23.523409] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.hpp\n'}
+[23.568789] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__struct.hpp\n'}
+[23.590922] (-) TimerEvent: {}
+[23.618889] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__traits.hpp\n'}
+[23.670017] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__builder.hpp\n'}
+[23.690998] (-) TimerEvent: {}
+[23.720860] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg\n'}
+[23.734922] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.779763] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[23.791069] (-) TimerEvent: {}
+[23.792170] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[23.803960] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[23.816944] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/dds_fastrtps\n'}
+[23.845138] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.889269] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg\n'}
+[23.891140] (-) TimerEvent: {}
+[23.900799] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.947159] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.991217] (-) TimerEvent: {}
+[24.050907] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.057802] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces\n'}
+[24.079462] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv\n'}
+[24.098331] (-) TimerEvent: {}
+[24.103534] (obstacle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail\n'}
+[24.117573] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__type_support.cpp\n'}
+[24.138281] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/include/obstacle_interfaces/obstacle_interfaces/srv/detail/set_direction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.187203] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.198406] (-) TimerEvent: {}
+[24.294022] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.298483] (-) TimerEvent: {}
+[24.303680] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.396786] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[24.398551] (-) TimerEvent: {}
+[24.405447] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/pythonpath.sh\n'}
+[24.454067] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/pythonpath.dsv\n'}
+[24.495215] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info\n'}
+[24.498620] (-) TimerEvent: {}
+[24.530409] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[24.575950] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[24.598695] (-) TimerEvent: {}
+[24.621774] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[24.666718] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[24.698770] (-) TimerEvent: {}
+[24.712618] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces\n'}
+[24.739486] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.782729] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.798845] (-) TimerEvent: {}
+[24.831277] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/_obstacle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.876825] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so\n'}
+[24.898932] (-) TimerEvent: {}
+[24.930666] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[24.983267] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[24.999006] (-) TimerEvent: {}
+[25.033091] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv\n'}
+[25.059701] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/_set_direction.py\n'}
+[25.099084] (-) TimerEvent: {}
+[25.110273] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/_set_direction_s.c\n'}
+[25.156933] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/__init__.py\n'}
+[25.199160] (-) TimerEvent: {}
+[25.203138] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/__init__.py\n'}
+[25.299241] (-) TimerEvent: {}
+[25.383459] (obstacle_interfaces) StdoutLine: {'line': b"Listing '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces'...\n"}
+[25.383618] (obstacle_interfaces) StdoutLine: {'line': b"Compiling '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/__init__.py'...\n"}
+[25.403297] (-) TimerEvent: {}
+[25.409485] (obstacle_interfaces) StdoutLine: {'line': b"Listing '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv'...\n"}
+[25.423134] (obstacle_interfaces) StdoutLine: {'line': b"Compiling '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/__init__.py'...\n"}
+[25.440594] (obstacle_interfaces) StdoutLine: {'line': b"Compiling '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/srv/_set_direction.py'...\n"}
+[25.459682] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[25.479124] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.498306] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[25.517355] (-) TimerEvent: {}
+[25.557088] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.579177] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so\n'}
+[25.617431] (-) TimerEvent: {}
+[25.641797] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages/obstacle_interfaces/obstacle_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[25.651369] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_py.so\n'}
+[25.717507] (-) TimerEvent: {}
+[25.720021] (obstacle_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/libobstacle_interfaces__rosidl_generator_py.so" to ""\n'}
+[25.744345] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/rust_packages/obstacle_interfaces\n'}
+[25.784046] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust\n'}
+[25.808383] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src\n'}
+[25.817582] (-) TimerEvent: {}
+[25.832560] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/lib.rs\n'}
+[25.878959] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv.rs\n'}
+[25.917656] (-) TimerEvent: {}
+[25.925124] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv\n'}
+[25.953814] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/src/srv/rmw.rs\n'}
+[25.999587] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/Cargo.toml\n'}
+[26.017731] (-) TimerEvent: {}
+[26.046715] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/rust/build.rs\n'}
+[26.092806] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.idl\n'}
+[26.117806] (-) TimerEvent: {}
+[26.137033] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/srv/SetDirection.srv\n'}
+[26.195554] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/package_run_dependencies/obstacle_interfaces\n'}
+[26.217881] (-) TimerEvent: {}
+[26.254003] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/parent_prefix_path/obstacle_interfaces\n'}
+[26.300240] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/ament_prefix_path.sh\n'}
+[26.317956] (-) TimerEvent: {}
+[26.343227] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/ament_prefix_path.dsv\n'}
+[26.397192] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/path.sh\n'}
+[26.418032] (-) TimerEvent: {}
+[26.441808] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/environment/path.dsv\n'}
+[26.485140] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.bash\n'}
+[26.518109] (-) TimerEvent: {}
+[26.533317] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.sh\n'}
+[26.582193] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.zsh\n'}
+[26.618185] (-) TimerEvent: {}
+[26.633530] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/local_setup.dsv\n'}
+[26.679836] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.dsv\n'}
+[26.718260] (-) TimerEvent: {}
+[26.744149] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/ament_index/resource_index/packages/obstacle_interfaces\n'}
+[26.798114] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cExport.cmake\n'}
+[26.818339] (-) TimerEvent: {}
+[26.849816] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.895854] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.918420] (-) TimerEvent: {}
+[26.951910] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.000145] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.018499] (-) TimerEvent: {}
+[27.048349] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.092433] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[27.118580] (-) TimerEvent: {}
+[27.139821] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.187401] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_cppExport.cmake\n'}
+[27.218655] (-) TimerEvent: {}
+[27.233507] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.280832] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.318735] (-) TimerEvent: {}
+[27.327590] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.375408] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.418814] (-) TimerEvent: {}
+[27.421895] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[27.471504] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.518529] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_pyExport.cmake\n'}
+[27.518880] (-) TimerEvent: {}
+[27.566640] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/export_obstacle_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.610992] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[27.618964] (-) TimerEvent: {}
+[27.655015] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.701991] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.719047] (-) TimerEvent: {}
+[27.748417] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.796444] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.819132] (-) TimerEvent: {}
+[27.843839] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.888920] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.919209] (-) TimerEvent: {}
+[27.934413] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[27.981259] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfacesConfig.cmake\n'}
+[28.019286] (-) TimerEvent: {}
+[28.029542] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/cmake/obstacle_interfacesConfig-version.cmake\n'}
+[28.078866] (obstacle_interfaces) StdoutLine: {'line': b'-- Installing: /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.xml\n'}
+[28.119376] (-) TimerEvent: {}
+[28.147043] (obstacle_interfaces) CommandEnded: {'returncode': 0}
+[28.219455] (-) TimerEvent: {}
+[28.319622] (-) TimerEvent: {}
+[28.419786] (-) TimerEvent: {}
+[28.519971] (-) TimerEvent: {}
+[28.620133] (-) TimerEvent: {}
+[28.720296] (-) TimerEvent: {}
+[28.775429] (obstacle_interfaces) JobEnded: {'identifier': 'obstacle_interfaces', 'rc': 0}
+[28.798392] (-) EventReactorShutdown: {}

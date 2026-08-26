@@ -1,0 +1,6 @@
+{
+  "package_name": "obstacle_interfaces",
+  "non_idl_tuples": [
+    "/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces:srv/SetDirection.srv"
+  ]
+}

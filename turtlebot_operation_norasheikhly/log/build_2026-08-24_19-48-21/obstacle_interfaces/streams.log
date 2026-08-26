@@ -1,0 +1,30 @@
+[0.149s] Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces -DCMAKE_INSTALL_PREFIX=/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces
+[0.436s] -- The C compiler identification is GNU 13.3.0
+[0.701s] -- The CXX compiler identification is GNU 13.3.0
+[0.782s] -- Detecting C compiler ABI info
+[1.682s] -- Detecting C compiler ABI info - done
+[1.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.709s] -- Detecting C compile features
+[1.709s] -- Detecting C compile features - done
+[1.778s] -- Detecting CXX compiler ABI info
+[2.726s] -- Detecting CXX compiler ABI info - done
+[2.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.759s] -- Detecting CXX compile features
+[2.760s] -- Detecting CXX compile features - done
+[2.877s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.161s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.154s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.732s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.950s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.954s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[5.955s]   rosidl_generate_interfaces() the passed file 'srv/SetDirection.srv' doesn't
+[5.955s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[5.955s]   '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces'
+[5.955s] Call Stack (most recent call first):
+[5.955s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[5.955s] 
+[5.955s] [0m
+[5.964s] -- Configuring incomplete, errors occurred!
+[6.005s] Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces -DCMAKE_INSTALL_PREFIX=/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces

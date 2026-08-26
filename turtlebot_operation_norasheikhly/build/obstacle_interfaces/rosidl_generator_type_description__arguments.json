@@ -1,0 +1,11 @@
+{
+  "package_name": "obstacle_interfaces",
+  "output_dir": "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces/rosidl_generator_type_description/obstacle_interfaces",
+  "idl_tuples": [
+    "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces/rosidl_adapter/obstacle_interfaces:srv/SetDirection.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

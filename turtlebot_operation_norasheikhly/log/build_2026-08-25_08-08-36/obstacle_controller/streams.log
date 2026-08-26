@@ -1,0 +1,23 @@
+[1.212s] Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller': PYTHONPATH=/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_controller build --build-base /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/build install --record /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/install.log --install-scripts $base/lib/obstacle_controller --single-version-externally-managed install_data
+[1.492s] running egg_info
+[1.520s] writing ../../build/obstacle_controller/obstacle_controller.egg-info/PKG-INFO
+[1.539s] writing dependency_links to ../../build/obstacle_controller/obstacle_controller.egg-info/dependency_links.txt
+[1.555s] writing entry points to ../../build/obstacle_controller/obstacle_controller.egg-info/entry_points.txt
+[1.571s] writing requirements to ../../build/obstacle_controller/obstacle_controller.egg-info/requires.txt
+[1.588s] writing top-level names to ../../build/obstacle_controller/obstacle_controller.egg-info/top_level.txt
+[1.644s] reading manifest file '../../build/obstacle_controller/obstacle_controller.egg-info/SOURCES.txt'
+[1.657s] writing manifest file '../../build/obstacle_controller/obstacle_controller.egg-info/SOURCES.txt'
+[1.673s] running build
+[1.692s] running build_py
+[1.709s] running install
+[1.725s] running install_lib
+[1.743s] running install_data
+[1.759s] running install_egg_info
+[1.772s] removing '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[1.776s] Copying ../../build/obstacle_controller/obstacle_controller.egg-info to /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages/obstacle_controller-0.0.0-py3.12.egg-info
+[1.954s] running install_scripts
+[2.130s] Installing cmd_vel_publisher script to /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/obstacle_controller
+[2.150s] Installing cmd_vel_subscriber script to /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/obstacle_controller
+[2.171s] Installing direction_autopilot_node script to /root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/obstacle_controller
+[2.193s] writing list of installed files to '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/install.log'
+[2.240s] Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller' returned '0': PYTHONPATH=/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_controller build --build-base /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/build install --record /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/install.log --install-scripts $base/lib/obstacle_controller --single-version-externally-managed install_data

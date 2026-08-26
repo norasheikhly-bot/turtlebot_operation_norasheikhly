@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "obstacle_interfaces__rs",
+		"source" : "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces/obstacle_interfaces__rs"
+	}
+}

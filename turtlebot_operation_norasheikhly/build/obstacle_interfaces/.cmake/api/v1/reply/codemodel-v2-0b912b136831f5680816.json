@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b17f271e5aa001430362.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "obstacle_interfaces__py",
+					"jsonFile" : "directory-obstacle_interfaces__py-673d2ce108451a0355dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces/obstacle_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "obstacle_interfaces__rs",
+					"jsonFile" : "directory-obstacle_interfaces__rs-f6761c54d49527ec0a6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces/obstacle_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "obstacle_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_obstacle_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_obstacle_interfaces_egg-ad898299ba972be10041.json",
+					"name" : "ament_cmake_python_build_obstacle_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_obstacle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_obstacle_interfaces-f040efbfd280fb39f8e3.json",
+					"name" : "ament_cmake_python_copy_obstacle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces-820be4fae754d02b296e.json",
+					"name" : "obstacle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__cpp-0f49942590cecfc1b902.json",
+					"name" : "obstacle_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "obstacle_interfaces__py::@ad984b5e6782806866e2",
+					"jsonFile" : "target-obstacle_interfaces__py-c6a21f5e44eff4b70ded.json",
+					"name" : "obstacle_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_generator_c-507926639769ff735e58.json",
+					"name" : "obstacle_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_generator_py-1d02c52be8b541a7fd54.json",
+					"name" : "obstacle_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_generator_type_description-601de66dfbde3a478c21.json",
+					"name" : "obstacle_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_c-7c6918d13fc5fac8a0d1.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_cpp-37acafe39c6ef20f1f40.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_fastrtps_c-a0c1315074772cffc6a2.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_fastrtps_cpp-fc5bb73a959127e0eb91.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_introspection_c-a735cc43401ee6b87e7b.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces__rosidl_typesupport_introspection_cpp-774b75b733ab77fc50d7.json",
+					"name" : "obstacle_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "obstacle_interfaces__rs::@a67a5da3fbb47c41fd8f",
+					"jsonFile" : "target-obstacle_interfaces__rs-f716ddaa34d805750ad7.json",
+					"name" : "obstacle_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces_s__rosidl_typesupport_c-9e886c98f6dc8139dc27.json",
+					"name" : "obstacle_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces_s__rosidl_typesupport_fastrtps_c-46e15a08e3b472849e35.json",
+					"name" : "obstacle_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces_s__rosidl_typesupport_introspection_c-146af396f68d6b6a2424.json",
+					"name" : "obstacle_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_interfaces_uninstall-3de1ee1520131e7b0f80.json",
+					"name" : "obstacle_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6adfa0843ed7644dc160.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces",
+		"source" : "/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

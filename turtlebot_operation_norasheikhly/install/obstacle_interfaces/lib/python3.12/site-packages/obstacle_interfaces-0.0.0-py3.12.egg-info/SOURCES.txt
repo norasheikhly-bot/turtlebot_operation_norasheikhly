@@ -1,0 +1,8 @@
+setup.py
+obstacle_interfaces/__init__.py
+obstacle_interfaces.egg-info/PKG-INFO
+obstacle_interfaces.egg-info/SOURCES.txt
+obstacle_interfaces.egg-info/dependency_links.txt
+obstacle_interfaces.egg-info/top_level.txt
+obstacle_interfaces/srv/__init__.py
+obstacle_interfaces/srv/_set_direction.py

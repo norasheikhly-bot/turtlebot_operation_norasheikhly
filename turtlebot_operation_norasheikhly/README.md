@@ -1,0 +1,193 @@
+# create turtlebot_operation_norasheikhly by (mkdir)
+# mkdir -p to add src under the ws
+# in src:
+   # create interface package obstacle_interfaces (ros2 pkg create...)
+   # build srv folder add file by (nano) to SetDirection.srv
+      # srv file will have request: string direction / response bool success and string msg
+# Modift CMakelists.txt 
+# Modify package.xml to add dependencies
+# Build the interface package from the created ws then source it
+# The Nodes can import and use the custom SetDirection
+
+# Create obstacle_controller package
+# in src create pkg ament_python and obstacle_controller
+# add dependencies geometry_msgs/sensor_msgs/obstacle_interfaces
+
+ # <depend>geometry_msgs</depend>
+ # <depend>sensor_msgs</depend>
+ # <depend>obstacle_interfaces</depend>
+# create node direction_autopilot_node.py then fill the code below
+# Modify setup.py add entry points
+# build packsge and source and test below
+
+
+
+#Primary direction = your last /set_direction command.
+#Obstacle detected in primary direction → pick an alternate safe direction automatically.
+#No safe direction → stop as a last resort.
+
+#!/usr/bin/env python3
+import math
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+from sensor_msgs.msg import LaserScan
+from obstacle_interfaces.srv import SetDirection
+
+VALID_DIRECTIONS = {"forward", "reverse", "left", "right", "stop"}
+
+class DirectionAutopilotNode(Node):
+    def __init__(self):
+        super().__init__('direction_autopilot_node')
+
+        self.current_direction = "stop"
+
+        # ROS interfaces
+        self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
+        self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.create_service(SetDirection, '/set_direction', self.handle_request)
+
+        # Parameters
+        self.avoid_threshold = 1.2  # If an obstacle is closer than 1.2 m in a given sector, it’s considered “too close” and should be avoided
+        self.forward_velocity = 0.25 #speed-forward
+        self.reverse_velocity = -0.20 #speed-backward
+        self.angular_velocity = 0.6  # sharper turns
+        self.diagonal_turn_speed = 0.4 # slow turn
+        self.sector_half_width = math.radians(25)
+
+        self.get_logger().info("Continuous All-Direction Obstacle Avoidance Node Started")
+    
+    #Laser scan data behaviour 
+    def _sector_distance(self, ranges, angle_min, angle_increment, center_angle, half_width, max_range):
+        start_angle = center_angle - half_width
+        end_angle = center_angle + half_width
+        start_index = max(0, int((start_angle - angle_min) / angle_increment))
+        end_index = min(len(ranges), int((end_angle - angle_min) / angle_increment))
+        sector_ranges = [
+            r for r in ranges[start_index:end_index]
+            if not math.isinf(r) and not math.isnan(r)
+        ]
+        return min(sector_ranges) if sector_ranges else max_range
+
+    #called every time a new /scan message arrives from the LiDAR
+    def scan_callback(self, msg: LaserScan):
+        ranges = msg.ranges
+        angle_min = msg.angle_min
+        angle_increment = msg.angle_increment
+
+        # Distances in key sectors
+        front_distance = self._sector_distance(ranges, angle_min, angle_increment, 0.0, self.sector_half_width, msg.range_max)
+        back_distance = self._sector_distance(ranges, angle_min, angle_increment, math.pi, self.sector_half_width, msg.range_max)
+        left_front_distance = self._sector_distance(ranges, angle_min, angle_increment, math.pi/4, self.sector_half_width, msg.range_max)
+        right_front_distance = self._sector_distance(ranges, angle_min, angle_increment, -math.pi/4, self.sector_half_width, msg.range_max)
+
+        #print real time status 
+        self.get_logger().info(
+            f"F:{front_distance:.2f} | B:{back_distance:.2f} | LF:{left_front_distance:.2f} | RF:{right_front_distance:.2f} | CMD:{self.current_direction}"
+        )
+
+        twist = Twist()
+
+        # Forward movement:move forward but avoid obstacles by changing direction front left and front right, it will choose the one with more space then continue forward
+        if self.current_direction == "forward":
+            if front_distance < self.avoid_threshold:
+                if left_front_distance > right_front_distance:
+                    twist.linear.x = self.forward_velocity
+                    twist.angular.z = self.angular_velocity
+                else:
+                    twist.linear.x = self.forward_velocity
+                    twist.angular.z = -self.angular_velocity
+            else:
+                twist.linear.x = self.forward_velocity
+
+        # Reverse movement:Turn towards the side with more space while reversing if obstacle else just keep moving
+        elif self.current_direction == "reverse":
+            if back_distance < self.avoid_threshold:
+                if left_front_distance > right_front_distance:
+                    twist.linear.x = self.reverse_velocity
+                    twist.angular.z = self.angular_velocity
+                else:
+                    twist.linear.x = self.reverse_velocity
+                    twist.angular.z = -self.angular_velocity
+            else:
+                twist.linear.x = self.reverse_velocity
+
+        # Left-forward diagonal: turn left and then forward unless obstacle turn away (negative angular velocity = turn right)
+        elif self.current_direction == "left":
+            if front_distance < self.avoid_threshold or left_front_distance < self.avoid_threshold:
+                twist.linear.x = self.forward_velocity
+                twist.angular.z = -self.angular_velocity  # turn away
+            else:
+                twist.linear.x = self.forward_velocity
+                twist.angular.z = self.diagonal_turn_speed
+
+        # Right-forward diagonal:turn right and then forward unless obstacle turn away (positive angular velocity = turn left)
+        elif self.current_direction == "right":
+            if front_distance < self.avoid_threshold or right_front_distance < self.avoid_threshold:
+                twist.linear.x = self.forward_velocity
+                twist.angular.z = self.angular_velocity  # turn away
+            else:
+                twist.linear.x = self.forward_velocity
+                twist.angular.z = -self.diagonal_turn_speed
+
+        # Stop
+        elif self.current_direction == "stop":
+            twist.linear.x = 0.0
+            twist.angular.z = 0.0
+
+        self.cmd_pub.publish(twist)
+
+    #callback for /set_direction service
+    def handle_request(self, request, response):
+        direction = request.direction.lower().strip()
+        #Checks if the requested direction is one of those (forward,reverse,left,right,stop) If not, it returns success=False and logs a warning.
+        if direction not in VALID_DIRECTIONS:
+            response.success = False
+            response.message = f"Invalid direction: {direction}"
+            self.get_logger().warn(response.message)
+            return response
+        
+        #If command valid, updates the robot’s current_direction, Logs the change and Return success=True with a confirmation message.
+        self.current_direction = direction
+        self.get_logger().info(f"Direction overridden to: {direction}")
+        response.success = True
+        response.message = f"Direction set to {direction}"
+        return response
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = DirectionAutopilotNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+    # Build in turtlebot_operation_norasheikhly workspace:
+    # colcon build --packages-select obstacle_controller obstacle_interfaces
+
+    # source
+    # source install/setup.bash
+
+    # Run node:
+    # ros2 run obstacle_controller direction_autopilot_node
+
+    # in another terminal
+    # source
+    # source install/setup.bash
+
+    # Send commands:
+    # ros2 service call /set_direction obstacle_interfaces/srv/SetDirection "{direction: 'forward'}"
+    # ros2 service call /set_direction obstacle_interfaces/srv/SetDirection "{direction: 'left'}"
+    # ros2 service call /set_direction obstacle_interfaces/srv/SetDirection "{direction: 'right'}"
+    # ros2 service call /set_direction obstacle_interfaces/srv/SetDirection "{direction: 'reverse'}"
+    # ros2 service call /set_direction obstacle_interfaces/srv/SetDirection "{direction: 'stop'}"

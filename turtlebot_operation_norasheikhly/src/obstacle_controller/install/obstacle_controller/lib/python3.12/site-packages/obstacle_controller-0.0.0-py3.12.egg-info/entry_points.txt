@@ -1,0 +1,4 @@
+[console_scripts]
+cmd_vel_publisher = obstacle_controller.cmd_vel_publisher:main
+cmd_vel_subscriber = obstacle_controller.cmd_vel_subscriber:main
+direction_autopilot_node = obstacle_controller.direction_autopilot_node:main

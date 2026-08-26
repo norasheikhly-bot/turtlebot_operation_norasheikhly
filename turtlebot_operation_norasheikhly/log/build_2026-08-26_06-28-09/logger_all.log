@@ -1,0 +1,211 @@
+[0.232s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'obstacle_controller', 'obstacle_interfaces']
+[0.232s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['obstacle_controller', 'obstacle_interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f38e7e69460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f38e7f99910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f38e7f99910>>)
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.341s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/workspaces/turtlebot_operation_norasheikhly'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_controller) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacle_controller' with type 'ros.ament_python' and name 'obstacle_controller'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extensions ['ros']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle_interfaces) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacle_interfaces' with type 'ros.ament_cmake' and name 'obstacle_interfaces'
+[0.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.783s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /root/workspaces/turtlebot_operation_norasheikhly/install
+[0.789s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /root/workspaces/turtlebot_ws/install
+[0.794s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 455 installed packages in /opt/ros/jazzy
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.950s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.954s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'obstacle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces', 'merge_install': False, 'path': '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_target' from command line to 'None'
+[0.988s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.002s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'obstacle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.020s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller', 'merge_install': False, 'path': '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller', 'symlink_install': False, 'test_result_base': None}
+[1.025s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.034s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces' with build type 'ament_cmake'
+[1.038s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_interfaces'
+[1.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces -- -j4 -l4
+[2.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces -- -j4 -l4
+[3.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces
+[4.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_interfaces)
+[4.607s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces' for CMake module files
+[4.613s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces' for CMake config files
+[4.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'cmake_prefix_path')
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.ps1'
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.dsv'
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.sh'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib'
+[4.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'ld_library_path_lib')
+[4.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.ps1'
+[4.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_interfaces
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.dsv'
+[4.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.sh'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/bin'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/pkgconfig/obstacle_interfaces.pc'
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages'
+[4.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'pythonpath')
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.ps1'
+[4.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.dsv'
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.sh'
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/bin'
+[4.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.ps1'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.dsv'
+[4.866s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.sh'
+[4.889s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.bash'
+[4.904s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.zsh'
+[4.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/colcon-core/packages/obstacle_interfaces)
+[4.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_interfaces)
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces' for CMake module files
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces' for CMake config files
+[4.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'cmake_prefix_path')
+[4.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.ps1'
+[5.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.dsv'
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/cmake_prefix_path.sh'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib'
+[5.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'ld_library_path_lib')
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.ps1'
+[5.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.dsv'
+[5.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/ld_library_path_lib.sh'
+[5.100s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/bin'
+[5.100s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/pkgconfig/obstacle_interfaces.pc'
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages'
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_interfaces', 'pythonpath')
+[5.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.ps1'
+[5.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.dsv'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/hook/pythonpath.sh'
+[5.175s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/bin'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.ps1'
+[5.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.dsv'
+[5.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.sh'
+[5.226s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.bash'
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/obstacle_interfaces/package.zsh'
+[5.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/share/colcon-core/packages/obstacle_interfaces)
+[5.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller' with build type 'ament_python'
+[5.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_controller', 'ament_prefix_path')
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/ament_prefix_path.ps1'
+[5.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/ament_prefix_path.dsv'
+[5.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/ament_prefix_path.sh'
+[5.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.841s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller'
+[5.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.066s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: easy_install, build, bdist_rpm, build_clib, install_lib, bdist_dumb, build_ext, init_catalog, upload_docs, build_scripts, setopt, bdist_egg, saveopts, clean, rotate, bdist_wheel, egg_info, develop, install_egg_info, bdist, test, build_py, alias, symlink_data, install, check, compile_catalog, install_scripts, extract_messages, update_catalog, sdist, dist_info, editable_wheel, install_headers, upload, install_data, register
+[7.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller': PYTHONPATH=/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_controller build --build-base /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/build install --record /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/install.log --install-scripts $base/lib/obstacle_controller --single-version-externally-managed install_data
+[8.527s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller' for CMake module files
+[8.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/workspaces/turtlebot_operation_norasheikhly/src/obstacle_controller' returned '0': PYTHONPATH=/root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_interfaces/lib/python3.12/site-packages:/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_controller build --build-base /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/build install --record /root/workspaces/turtlebot_operation_norasheikhly/build/obstacle_controller/install.log --install-scripts $base/lib/obstacle_controller --single-version-externally-managed install_data
+[8.539s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller' for CMake config files
+[8.557s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib'
+[8.559s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/bin'
+[8.563s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/pkgconfig/obstacle_controller.pc'
+[8.563s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/lib/python3.12/site-packages'
+[8.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_controller', 'pythonpath')
+[8.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/pythonpath.ps1'
+[8.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/pythonpath.dsv'
+[8.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/hook/pythonpath.sh'
+[8.630s] Level 1:colcon.colcon_core.environment:checking '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/bin'
+[8.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_controller)
+[8.635s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/package.ps1'
+[8.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/package.dsv'
+[8.670s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/package.sh'
+[8.686s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/package.bash'
+[8.701s] INFO:colcon.colcon_core.shell:Creating package script '/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/obstacle_controller/package.zsh'
+[8.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/workspaces/turtlebot_operation_norasheikhly/install/obstacle_controller/share/colcon-core/packages/obstacle_controller)
+[8.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.737s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.737s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.801s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[8.801s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/workspaces/turtlebot_operation_norasheikhly/install/local_setup.ps1'
+[8.828s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/workspaces/turtlebot_operation_norasheikhly/install/_local_setup_util_ps1.py'
+[8.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/workspaces/turtlebot_operation_norasheikhly/install/setup.ps1'
+[8.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/workspaces/turtlebot_operation_norasheikhly/install/local_setup.sh'
+[8.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/workspaces/turtlebot_operation_norasheikhly/install/_local_setup_util_sh.py'
+[8.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/workspaces/turtlebot_operation_norasheikhly/install/setup.sh'
+[8.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/workspaces/turtlebot_operation_norasheikhly/install/local_setup.bash'
+[8.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/workspaces/turtlebot_operation_norasheikhly/install/setup.bash'
+[9.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/workspaces/turtlebot_operation_norasheikhly/install/local_setup.zsh'
+[9.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/workspaces/turtlebot_operation_norasheikhly/install/setup.zsh'
